@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 (async () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
@@ -8,7 +6,6 @@
             coordsEl.parentElement.classList.remove('invisible');
         });
     }
-=======
 (() => {
     const earlyorderForm = document.querySelector('#earlyorder-form');
 
@@ -28,9 +25,6 @@
             earlyorderContact.value = '';
         }, 500);
     });
->>>>>>> feature/earlyorder
-=======
 (async () => {
     // TODO: add custom logic here
->>>>>>> 857e3d95477bfbd9c93fb04804a64d0007c1c075
 })();
